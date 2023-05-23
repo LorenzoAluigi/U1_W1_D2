@@ -13,7 +13,7 @@
         <ul>
           <li><a href="#header">Home</a></li>
           <li><a href="#post">Articoli</a></li>
-          <li><a href="#form">Lavora con noi</a></li>
+          <li><a href="#footer">Lavora con noi</a></li>
         </ul>
       </nav>
     </header>
@@ -42,7 +42,7 @@
             </ul>
             <p>Formarttazione del codice</p>
             <ol>
-              il testo dell'articolo dovrà essere formattato per identificare
+              Il testo dell'articolo dovrà essere formattato per identificare
               tutte le parti da selezzionare con i CSS. perciò i passi saranno:
               <li>
                 Proggettare il markup assegnando ad ogni specifico testo il tag
@@ -58,7 +58,9 @@
               L'applicazione di stili CSS è cresciuta negli anni fino a
               raggiungere la diffusione pressochè totale.
             </p>
-            <table id="tabella articolo">
+          </div>
+          <div id="tabella post">
+            <table>
               <thead>
                 Diffusione di CSS
                 <tr>
@@ -106,24 +108,25 @@
             </p>
           </div>
         </article>
-
-        <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/Yzp_MPyoIqU" title="YouTube video
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/Yzp_MPyoIqU"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <div id="box video">
+          <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/Yzp_MPyoIqU" title="YouTube video
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Yzp_MPyoIqU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
       <section id="form newsletter">
-        <h2>
+        <h3>
           Vuoi rimanere aggiornato su altre novità del blog? iscriviti alla
           nostra newslwtter
-        </h2>
+        </h3>
         <form autocomplete="on">
           <label for="email">E-Mail:</label>
           <input type="email" id="email" name="inserisci l'email" />
@@ -145,8 +148,15 @@
       </p>
     </aside>
 
-    <footer>
-      <h5>Blog Epicode &copy;2023</h5>
+    <footer id="footer">
+      <p>
+        <b>Blog Epicode&copy;2023</b><br />
+        Testata online di Mario Rossi, registrata con prot. n.213/2018 - Via
+        Luigi Einaudi 2 - Milano.<br />
+        P.IVA 00112233.<br /><a href="mailto:info@epicode.school"
+          >info@epicode.school</a
+        >
+      </p>
     </footer>
   </body>
 </html>
